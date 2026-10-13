@@ -17,21 +17,26 @@
   <nav><a href="../../#novoe" data-ru="Новое" data-kz="Жаңа">Новое</a><a href="../../#filmy" data-ru="Фильмы" data-kz="Фильмдер">Фильмы</a><a href="../../#skoro" data-ru="Скоро" data-kz="Жақында">Скоро</a></nav>
   <div class="top__right"><div class="lang" role="group" aria-label="Язык"><button data-l="ru" aria-pressed="true">RU</button><button data-l="kz" aria-pressed="false">KZ</button></div></div>
 </header>
-<main class="wrap" style="padding-top:12px">
-  <div class="player paused" data-slug="aidahar" data-mp4="../../media/aidahar/teaser.mp4">
-    <video playsinline preload="metadata" poster="../../media/aidahar/poster.jpg" width="1280" height="720"></video>
-    <div class="player__big"><i>▶</i></div>
-    <div class="player__ui"><div class="player__bar"><i></i></div>
-      <div class="player__ctl"><button data-act="play" aria-label="Играть">▶</button><span class="time">0:00 / 1:54</span><span class="sp"></span><span class="player__q">mp4</span><button data-act="mute" aria-label="Звук">🔊</button><button data-act="full" aria-label="На весь экран">⛶</button></div>
-    </div>
-  </div>
-  <section style="padding-block:28px 8px; display:grid; gap:12px; max-width:62ch">
+<section class="hero title-hero">
+  <div class="hero__art" aria-hidden="true"><img src="../../media/aidahar/poster.jpg" width="1280" height="720" alt="" fetchpriority="high"></div>
+  <div class="wrap hero__body">
     <p class="mono">Тизер · Neyra Vision Original · 2026</p>
-    <h1 style="font-size:clamp(2rem,1.4rem + 3vw,3.6rem)">Айдахар</h1>
+    <h1 >Айдахар</h1>
     <ul class="meta num"><li>1:54</li><li>12+</li><li data-ru="Сериал · эпос" data-kz="Сериал · эпос">Сериал · эпос</li><li data-ru="Серии 2–5 мин" data-kz="2–5 мин сериялар">Серии 2–5 мин</li></ul>
     <p class="logline" data-ru="Батыр против дракона степи. Сериал по мотивам казахского эпоса — короткие серии каждую неделю." data-kz="Батыр дала айдаһарына қарсы. Қазақ эпосы негізіндегі сериал — апта сайын қысқа сериялар.">Батыр против дракона степи. Сериал по мотивам казахского эпоса — короткие серии каждую неделю.</p>
     <p class="credits-line"><span data-ru="Студия" data-kz="Студия">Студия</span> <b>Neyra Vision</b> · <span data-ru="режиссёр" data-kz="режиссер">режиссёр</span> <b>Ара Аруш</b> · <span data-ru="технология" data-kz="технологиясы">технология</span> <b>NEYRA</b></p>
-  </section>
+    <div class="actions"><a class="btn btn--main" href="#watch" data-watch>▶ <span data-ru="Смотреть" data-kz="Көру">Смотреть</span> · 1:54</a></div>
+  </div>
+</section>
+<main class="wrap" style="padding-top:12px">
+  <div id="watch" class="player paused" data-slug="aidahar" data-mp4="../../media/aidahar/teaser.mp4">
+    <video playsinline preload="metadata" poster="../../media/aidahar/poster.jpg" width="1280" height="720"></video>
+    <div class="player__big"><i>▶</i></div>
+    <div class="player__msg" role="alert" data-ru="Видео не загрузилось. Обновите страницу." data-kz="Бейне жүктелмеді. Бетті жаңартыңыз.">Видео не загрузилось. Обновите страницу.</div>
+    <div class="player__ui"><div class="player__bar" role="slider" tabindex="0" aria-label="Перемотка" aria-valuemin="0" aria-valuemax="0" aria-valuenow="0"><i></i></div>
+      <div class="player__ctl"><button data-act="play" aria-label="Играть"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 5v14l11-7z"/></svg></button><span class="time">0:00 / 1:54</span><span class="sp"></span><button data-act="mute" aria-label="Без звука" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 9v6h4l5 4V5L8 9zm12.5 3a4.5 4.5 0 0 0-2.5-4v8a4.5 4.5 0 0 0 2.5-4z"/></svg></button><button data-act="full" aria-label="На весь экран"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h6v2H6v4H4zm10 0h6v6h-2V6h-4zM4 14h2v4h4v2H4zm14 4v-4h2v6h-6v-2z"/></svg></button></div>
+    </div>
+  </div>
   <section id="kadry" class="row-section">
     <div class="row-head"><h2 data-ru="Кадры · сцена 1" data-kz="Кадрлар · 1-көрініс">Кадры · сцена 1</h2></div>
     <div class="row">
