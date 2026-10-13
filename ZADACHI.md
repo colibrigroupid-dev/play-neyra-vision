@@ -6,6 +6,6 @@
 | 02 | Проверка кода (`assets/play.js`, HLS, доступность, клавиатура, ошибки консоли) и вёрстки (1440/375, шрифты KZ, контраст) — по `PROVERKA.md` navyka web-master (`~/.claude/skills/web-master/references/priyomka.md`) | Платформа + Codex | веб-мастер | правки внесены 13.10 13:30, ответ proverki/02-otvet-veb-mastera.md | `proverki/02-*.md` |
 | 03 | Постер «Степного кода» без вшитого текста (кадр из v2 без титров) | веб-мастер | Платформа | готово 13.10 12:50 (кадры 0:50 · 2:10 · 2:40) | `media/stepnoy-kod/poster.jpg` |
 | 04 | Решения Александра из `RAZBOR/02` §«Решения»: репо+DNS, где видео, что показывать, название | Александр | — | решено 13.10 13:19: репо+DNS «да» (Платформа), видео пока mp4 в репо, охра остаётся | — |
-| 05 | Выкат на GitHub Pages `colibrigroupid-dev/play-neyra-vision` + `CNAME` (после №04) | веб-мастер | Платформа | выложено 13.10 13:25 (выкат №2, Платформа создала репо/Pages/DNS); HTTP 200 на IP GitHub; HTTPS — ждём сертификат, Enforce HTTPS делает Платформа | https://play.neyra.vision |
+| 05 | Выкат на GitHub Pages `colibrigroupid-dev/play-neyra-vision` + `CNAME` (после №04) | веб-мастер | Платформа | выложено 13.10 13:25 (выкат №2, Платформа создала репо/Pages/DNS); HTTPS с 13:43 (Let's Encrypt, Enforce HTTPS, http→301); **принято** | https://play.neyra.vision |
 
 Правила те же, что в `studio-neyra-vision/AGENTS.md`: готово ≠ принято; дефекты возвращаются владельцу списком; прод — только по слову Александра; платных генераций нет.
